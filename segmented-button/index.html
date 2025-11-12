@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/style.css" />
+    <title>Segmented Button</title>
+  </head>
+  <body>
+    <div id="app">
+      <h1>Segmented Button Accessibility</h1>
+      <div>
+        <ui5-label>Choose a map style:</ui5-label>
+        <ui5-segmented-button accessible-name="Map style">
+          <ui5-segmented-button-item>Map</ui5-segmented-button-item>
+          <ui5-segmented-button-item selected accessible-name="Satellite"
+            >Satellite</ui5-segmented-button-item
+          >
+          <ui5-segmented-button-item>Terrain</ui5-segmented-button-item>
+        </ui5-segmented-button>
+      </div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
