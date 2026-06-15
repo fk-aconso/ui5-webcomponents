@@ -26,4 +26,4 @@ Error: expect(locator).toBeVisible() failed
 ```
 
 - With v`2.21.1` of the ui5 webcomponents using `getByRole` selector does not work as expected
-- Switching back to v`2.19.1` this works fine. Even without setting a explicit `Pineapple`
+- Switching back to v`2.19.1` this works fine. Even without setting a explicit `accessibleName`
